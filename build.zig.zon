@@ -1,0 +1,20 @@
+.{
+    .name = "zgem",
+    .version = "0.0.0",
+    .dependencies = .{
+        .network = .{
+            .url = "https://github.com/MasterQ32/zig-network/archive/07ef40cacd7b00bc0f26e254d97d4d4c9071195a.tar.gz",
+            .hash = "12204d3d4c1184d379a78399e5ddd8a46fe19ca6c991d5c9b909c1980d14acb1dede",
+        },
+        .libressl = .{
+            .url = "https://github.com/Beyley/LibreSSL-portable/archive/4dbf1184cafbb44c32ba1557737c7d0d3edc113d.tar.gz",
+            .hash = "1220a3b390d7d8c7c7dcb2e16f51426aaa56579e6d0636dd0cb4c0c9f62eb9e5e326",
+        },
+    },
+
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
